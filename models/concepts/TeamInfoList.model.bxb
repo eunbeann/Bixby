@@ -1,0 +1,15 @@
+structure (TeamInfoList) {
+  description (팀 정보 리스트)
+  property (clubName) {
+    type (ClubName)
+    min (Required) max (One)
+  }
+  property (clubEnglishName) {
+    type (ClubEnglishName)
+    min (Required) max (One)
+  }
+  property (description) {
+    type (Description)
+    min (Required) max (One)
+  }
+}

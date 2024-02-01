@@ -1,0 +1,13 @@
+enum (inputTeamName) {
+  description (프로야구 팀 이름)
+  symbol (wyverns)
+  symbol (bears)
+  symbol (eagles)
+  symbol (heros)
+  symbol (tigers)
+  symbol (lions)
+  symbol (giants)
+  symbol (twins)
+  symbol (wiz)
+  symbol (dinos)
+}
