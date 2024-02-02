@@ -1,0 +1,9 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (SearchbasebTeamInfo){
+      accepted-inputs (inputTeamName)
+      local-endpoint ("searchbasebTeamInfo.js")
+
+    }
+  }
+}

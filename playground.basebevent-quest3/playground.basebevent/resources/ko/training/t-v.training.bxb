@@ -1,0 +1,4 @@
+train (t-vfcb5sxcmywkrx4iituvr9q82) {
+  utterance ([g:BasebEvent] 모든 야구팀 이벤트를 찾아보세요)
+  plan (Y2BkUCjISaxML8ovzUvRS0osTk1KLUvNK9FzAjFdQUwGEGAEEQA=)
+}

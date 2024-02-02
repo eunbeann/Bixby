@@ -1,0 +1,9 @@
+dialog (Result) {
+  match {
+    BasebEvent(this) {
+      from-output: FindBasebEvent(find)
+    }
+  }
+  //동영상 가이드를 참고하여, 여러분만의 Dialog 메시지로 변경해보세요.
+  template ("와우! 이렇게 많은 이벤트가 있네요")
+}

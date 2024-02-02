@@ -1,0 +1,27 @@
+layout-macro-def (basebevent-details-header) {
+  params {
+    param (basebEvent) {
+      type (BasebEvent)
+      min (Required) max (One)
+    }
+  }
+  content {
+    section {
+      content {
+        title-area {
+          hAlign (Start)
+          slot1 {
+            text {
+              style (Title_L)
+              value ("#{value(basebEvent.name)}")
+            }
+          }
+        }
+        paragraph {
+          style (Detail_M)
+          value ("#{value(basebEvent.description)}")
+        }
+      }
+    }
+  }
+}

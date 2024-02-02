@@ -1,0 +1,14 @@
+structure (BasebEvent) {
+  property (name) {
+    type (Name)
+    min (Required)
+  }
+  property (description) {
+    type (Description)
+    min (Required)
+  }
+  property (images) {
+    type (Image)
+    max (Many) min (Required)
+  }
+}

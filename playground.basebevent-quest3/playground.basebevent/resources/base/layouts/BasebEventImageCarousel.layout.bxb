@@ -1,0 +1,17 @@
+layout-macro-def (basebevent-image-carousel) {
+  params {
+    param (basebEvent) {
+      type (BasebEvent)
+      min (Required) max (One)
+    }
+  }
+  content {
+    section {
+      content {
+        image-carousel {
+          images (basebEvent.images)
+        }
+      }
+    }
+  }
+}

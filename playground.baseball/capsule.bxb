@@ -4,6 +4,10 @@ capsule {
   format (3)
   targets {
     target (bixby-mobile-en-US)
+    target (bixby-mobile-ko-KR)
+  }
+  capsule-imports {
+    import (viv.core) {as (core)}
   }
   runtime-version (9) {
     js-runtime-version (2)

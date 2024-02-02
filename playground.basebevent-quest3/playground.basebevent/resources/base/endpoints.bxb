@@ -1,0 +1,12 @@
+endpoints {
+  authorization {
+    none
+  }
+
+  action-endpoints {
+    action-endpoint (FindBasebEvent) {
+      accepted-inputs ()
+      local-endpoint ("findBasebEvent.js")
+    }
+  }
+}

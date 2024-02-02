@@ -1,0 +1,32 @@
+result-view {
+  match {
+    BasebEvent (basebEvent)
+  }
+
+  render {
+    if ("size(basebEvent) > 1") {
+      list-of (basebEvent) {
+        where-each (item) {
+          layout-macro (basebevent-image-card) {
+            param (basebEvent) {
+              expression (item)
+            }
+          }
+        }
+      }
+    } else-if ("size(basebEvent) == 1") {
+      layout {
+        layout-macro (basebevent-image-carousel) {
+          param (basebEvent) {
+            expression (basebEvent)
+          }
+        }
+        layout-macro (basebevent-details-header) {
+          param (basebEvent) {
+            expression (basebEvent)
+          }
+        }
+      }
+    }
+  }
+}

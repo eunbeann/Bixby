@@ -1,0 +1,11 @@
+action (SearchbasebTeamInfo) {
+  description (프로야구 구단 정보 조회하기)
+  collect {
+    input (inputTeamName) {
+      type (inputTeamName)
+      min (Required) max (One)
+    }
+  }
+  type(Search)
+  output (TeamInfoList)
+}

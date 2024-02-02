@@ -1,0 +1,5 @@
+action (FindBasebEvent) {
+  description (야구팀별 이벤트를 찾아보세요)
+  type (Search)
+  output (BasebEvent)
+}
