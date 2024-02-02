@@ -9,7 +9,7 @@ layout-macro-def (basebevent-details-header) {
     section {
       content {
         title-area {
-          hAlign (Start)
+          // hAlign (Start)
           slot1 {
             text {
               style (Title_L)

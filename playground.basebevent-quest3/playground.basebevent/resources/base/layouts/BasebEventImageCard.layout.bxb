@@ -6,12 +6,11 @@ layout-macro-def (basebevent-image-card) {
     }
   }
   content {
-    //동영상 가이드를 참고하여, image-card layout을 thumbnail-card layout으로 변경해보세요.
-    image-card {
-      size (L)
+    thumbnail-area {
+      // size (L)
       image-url ("#{value(basebEvent.images[0].url)}")
       title-area {
-        hAlign (Start)
+        // hAlign (Start)
         slot1 {
           text {
             value ("#{value(basebEvent.name)}")
